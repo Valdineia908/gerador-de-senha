@@ -1,8 +1,8 @@
-const numeroSenha = document.querySelector('.parametro-senha__texto');
+const numeroSenha = document.querySelector('.parametro_senha__texto');
 let tamanhoSenha = 12;
 numeroSenha.textContent = tamanhoSenha;
 
-const botoes = document.querySelectorAll('.parametro-senha__botao');
+const botoes = document.querySelectorAll('.parametro_senha__botao');
 
 botoes [0].onclick = diminuiTamanho;
 botoes [1].onclick = aumentaTamanho;
@@ -22,7 +22,7 @@ function diminuiTamanho () {
     numeroSenha.textContent = tamanhoSenha;
     }
 
-    const campoSenha = document.querySelector ('#campo-senha');
+    const campoSenha = document.querySelector ('#campo_senha');
     const checkbox = document.querySelectorA11('.checkbox');
 
     for (i = 0; i < checkbox.length; i++) {
